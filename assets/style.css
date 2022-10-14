@@ -1,17 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
 :root {
     --light-color: #1d1d1f;
-    --light-bgcolor: #f5f5f7;
+    --light-bg-color: #f5f5f7;
     --light-title-color: #333;
     --light-border-color: #d6d6d6;
     --light-link-color: #06c;
 
     --dark-color: #f5f5f7;
-    --dark-bgcolor: #1d1d1f;
+    --dark-bg-color: #1d1d1f;
     --dark-title-color: #f5f5f7;
     --dark-border-color: #444;
     --dark-link-color: #2997ff;
@@ -23,13 +21,13 @@
 }
 
 body {
-    font-family: "Varela Round", sans-serif;
+    font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
     color: var(--light-color);
-    background-color: var(--light-bgcolor);
+    background-color: var(--light-bg-color);
     font-size: 30px;
     letter-spacing: -0.005em;
     max-width: 640px;
-    margin-top: 15%;
+    padding: 15%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -102,17 +100,10 @@ a[href*="photos"] {
     color: var(--red);
 }
 
-@media screen and (max-width: 640px) {
-    body {
-        padding: 0 15%;
-        font-size: 20px;
-    }
-}
-
 @media (prefers-color-scheme: dark) {
     body {
         color: var(--dark-color);
-        background-color: var(--dark-bgcolor);
+        background-color: var(--dark-bg-color);
     }
 
     a {
