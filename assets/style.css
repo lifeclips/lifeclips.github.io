@@ -111,6 +111,12 @@ a[href*="photos"] {
     }
 }
 
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 20px;
+    }
+}
+
 .ua {
     color: var(--ua-blue);
     font-size: 0.7em;
