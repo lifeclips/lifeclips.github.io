@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: "Georgia", "Cambria", serif;
+    font-family: "Georgia", serif;
     color: var(--light-color);
     background-color: var(--light-bg-color);
     font-size: 30px;
