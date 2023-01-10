@@ -2,8 +2,6 @@
 /* CSS Document */
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rosario&display=swap");
 
 :root {
     --light-color: #1d1d1f;
@@ -25,7 +23,7 @@
 }
 
 body {
-    font-family: "Rosario", "Georgia", "Noto Serif TC", serif;
+    font-family: "Georgia", "Noto Serif TC", serif;
     font-weight: 500;
     color: var(--light-color);
     background-color: var(--light-bg-color);
@@ -35,10 +33,6 @@ body {
     padding: 15%;
     margin-left: auto;
     margin-right: auto;
-}
-
-h1 h2 h3 {
-    font-family: "Merriweather", "Georgia", "Noto Serif TC", serif;
 }
 
 .wave:before {
